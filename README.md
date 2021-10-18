@@ -15,9 +15,11 @@ Download the TREC question type classification data from https://cogcomp.seas.up
 
 ## Running the code
 ```
-Run get_answer_types_from_question.py to obtain the type of the questions.
-1. python3 get_answer_types_from_question.py
-Run sentence_embedding_ranking.py to get the top k answers.
-2. python3 sentence_embedding_ranking.py
-Run evalution.py and najork_evaluation.py for vanilla and tie-aware evaluation respectively. 
+1. Set question path, question type, corpora path, sampling type, output path in the configure.yml file.
+2. Run get_answer_types_from_question.py to obtain the type of the questions.
+   python3 get_answer_types_from_question.py
+3. Run sentence_embedding_ranking.py to get the top k answers.
+   python3 sentence_embedding_ranking.py
+4. Run evalution.py and najork_evaluation.py for vanilla and tie-aware evaluation respectively. 
+   
 ```
