@@ -1,0 +1,7 @@
+copusPathStart: ../Data/Corpora/
+qid: '001'
+quesPathStart: ../Data/QA/
+quesType: W
+resultPathStart: results/output9/
+#resultPathStart : ../journal_results/res/
+samplingType: top10
